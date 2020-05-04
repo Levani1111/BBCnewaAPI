@@ -3,15 +3,17 @@
  
   }
 
-.col {
-  margin-top: 30px;
-  display: grid;
-  height: 400px;
+.col{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 450px;
   align-content: center;
- 
+  margin-top: 20px;
+  }
+
+.col > div {
+  text-align: center;
 }
-
-
 
 .App-logo {
   height: 40vmin;
