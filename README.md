@@ -9,7 +9,7 @@ I used HTML,CSS,Javascript, and react to create this site.
 
 ### Deployment
 
-https://bbcnewslevani.netlify.app/
+https://bbcnewsarticles.netlify.app/
 
 
 
