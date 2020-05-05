@@ -21,7 +21,9 @@ class App extends Component  {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="App-title">BBC News </h1>
+        <h1 className="App-title">
+          BBC News <span>Articles</span>
+        </h1>
       </header>
       <News news={this.state.news1} />
       {/* <News news={this.state.news2} /> */}
