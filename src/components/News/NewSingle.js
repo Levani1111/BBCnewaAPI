@@ -10,10 +10,11 @@ const NewSingle = ({ item }) => (
       <div className="card-content">
         <p>{item.title}</p>
       </div>
-      <div className="card-action">
+      <div className="card-action"><p>
         <a href={item.url} target="_blank" rel="noopener noreferrer">
           Full article
         </a>
+        </p>
       </div>
     </div>
   </div>
