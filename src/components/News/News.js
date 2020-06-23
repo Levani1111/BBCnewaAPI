@@ -31,8 +31,6 @@ class News extends Component {
             <NewSingle key={item.url} item={item} />
         ));
     }
-
-
     render() {
         return (
             <div className="row">
