@@ -9,9 +9,8 @@ class News extends Component {
         };
     }
     componentDidMount() {
-    const url = 
-  
-    'https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=ed71b36e32e541b6af7691438d3b68d8';
+    const url =
+      "https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=ed71b36e32e541b6af7691438d3b68d8";
     
       fetch(url)
        .then((response) => {
@@ -28,7 +27,7 @@ class News extends Component {
 
     renderItems() {
         return this.state.news.map((item) => (
-            <NewSingle key={item.url} item={item} />
+            <NewSingle key={item.url} item={item} /> 
         ));
     }
     render() {
